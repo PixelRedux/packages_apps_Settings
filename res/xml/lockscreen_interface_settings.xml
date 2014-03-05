@@ -71,6 +71,11 @@
             android:fragment="com.android.settings.pixel.LockscreenNotifications"
             android:summary="@string/notifications_on_lockscreen_summary" />
 
+        <com.android.settings.cyanogenmod.SystemSettingCheckBoxPreference
+            android:key="battery_around_lockscreen_ring"
+            android:title="@string/battery_around_lockscreen_ring"
+            android:defaultValue="true" />
+
     </PreferenceCategory>
 
     <PreferenceCategory
