@@ -5,6 +5,11 @@
     <string name="pixel_version_title">PixelROM version</string>
     <string name="pixel_version_default">Unknown</string>
 
+    <!-- Restart SystemUI -->
+    <string name="general_settings_title">General settings</string>
+    <string name="general_settings_style_title">General options</string>
+    <string name="restart_systemui">Restart SystemUI</string>
+
     <!-- General strings -->
     <string name="attention">Attention</string>
     <string name="default_string">Default</string>
