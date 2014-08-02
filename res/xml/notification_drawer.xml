@@ -19,6 +19,12 @@
     android:title="@string/notification_drawer_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+    <com.android.settings.cyanogenmod.SystemSettingCheckBoxPreference
+        android:key="custom_status_bar_header"
+        android:title="@string/custom_statusbar_header_title"
+        android:summary="@string/custom_statusbar_header_summary"
+        android:defaultValue="false" />
+
     <ListPreference
         android:key="notification_drawer_collapse_on_dismiss"
         android:title="@string/notification_drawer_collapse_on_dismiss_title"
