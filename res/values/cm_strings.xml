@@ -213,7 +213,7 @@
     <string name="icon_picker_pack_title">Icon pack</string>
 
     <!-- Lights settings screen, notification light settings -->
-    <string name="display_lights_settings_title">Display &amp; lights</string>
+    <string name="display_lights_settings_title">Display options</string>
     <string name="lights_category_title">Lights</string>
     <string name="notification_light_title">Notification light</string>
     <string name="notification_light_general_title">General</string>
