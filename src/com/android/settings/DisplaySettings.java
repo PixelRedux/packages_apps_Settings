@@ -97,6 +97,9 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
     private static final String KEY_LISTVIEW_ANIMATION = "listview_animation";
     private static final String KEY_LISTVIEW_INTERPOLATOR = "listview_interpolator";
 
+    // Dual Panel
+    private static final String KEY_DUAL_PANEL = "force_dualpanel";
+
     private static final int DLG_GLOBAL_CHANGE_WARNING = 1;
 
     private static final String KEY_EXPANDED_DESKTOP = "expanded_desktop";
@@ -126,6 +129,7 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
     private CheckBoxPreference mSunlightEnhancement;
     private CheckBoxPreference mColorEnhancement;
     private CheckBoxPreference mTapToWake;
+    private CheckBoxPreference mDualPanel;
 
     private ListPreference mListViewAnimation;
     private ListPreference mListViewInterpolator;
@@ -211,6 +215,10 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
         disableUnusableTimeouts(mScreenTimeoutPreference);
         updateTimeoutPreferenceDescription(currentTimeout);
         updateDisplayRotationPreferenceDescription();
+
+        mDualPanel = (CheckBoxPreference) findPreference(KEY_DUAL_PANEL);
+        mDualPanel.setChecked(Settings.System.getBoolean(getContentResolver(),
+                Settings.System.FORCE_DUAL_PANEL, false));
 
         mFontSizePref = (FontDialogPreference) findPreference(KEY_FONT_SIZE);
         mFontSizePref.setOnPreferenceChangeListener(this);
@@ -626,6 +634,10 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
                     Settings.Global.WAKE_WHEN_PLUGGED_OR_UNPLUGGED,
                     mWakeWhenPluggedOrUnplugged.isChecked() ? 1 : 0);
             return true;
+        } else if (preference == mDualPanel) {
+	    Settings.System.putBoolean(getContentResolver(), Settings.System.FORCE_DUAL_PANEL,
+                    mDualPanel.isChecked() ? true : false);
+	    return true;
         } else if (preference == mTapToWake) {
             return TapToWake.setEnabled(mTapToWake.isChecked());
         }
