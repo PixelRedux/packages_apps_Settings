@@ -26,7 +26,7 @@
         <!-- Wakelock Blocker -->
         <PreferenceScreen
             android:key="wakelock_blocker"
-            android:fragment="com.android.settings.crdroid.WakeLockBlocker"
+            android:fragment="com.android.settings.pixel.WakeLockBlocker"
             android:title="@string/wakelock_blocker" />
 
         <!-- Media scanner behavior on boot -->

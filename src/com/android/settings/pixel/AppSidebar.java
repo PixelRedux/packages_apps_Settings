@@ -1,4 +1,4 @@
-package com.android.settings.crdroid;
+package com.android.settings.pixel;
 
 import android.content.ComponentName;
 import android.content.Intent;
@@ -13,7 +13,7 @@ import android.provider.Settings;
 
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
-import com.android.settings.crdroid.SeekBarPreferenceCHOS;
+import com.android.settings.pixel.SeekBarPreferenceCHOS;
 
 public class AppSidebar extends SettingsPreferenceFragment implements
         OnPreferenceChangeListener, Preference.OnPreferenceClickListener {

@@ -1781,8 +1781,8 @@
             android:theme="@style/CryptKeeperBlankTheme"
         />
 
-        <activity android:name="Settings$crDroidNotificationServicesActivity"
-                android:label="@string/crdroid_notifications_title"
+        <activity android:name="Settings$SmartNotificationServicesActivity"
+                android:label="@string/smart_notifications_title"
                 android:taskAffinity=""
                 android:excludeFromRecents="true">
             <intent-filter>
@@ -1790,10 +1790,10 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                android:value="com.android.settings.crdroid.crDroidNotifications" />
+                android:value="com.android.settings.pixel.SmartNotifications" />
         </activity>
 
-        <activity android:name=".crdroid.crDroidNotifications" />
+        <activity android:name=".pixel.SmartNotifications" />
 
         <!-- CyanogenMod activities Start -->
         <activity android:name="Settings$QuickSettingsConfigActivity"
@@ -1964,11 +1964,11 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                android:value="com.android.settings.crdroid.RamBar" />
+                android:value="com.android.settings.pixel.RamBar" />
         </activity>
 
         <!-- Telo -->
-        <activity android:name=".crdroid.TeloRadioSettings"
+        <activity android:name=".pixel.TeloRadioSettings"
             android:label="@string/telo_radio_settings_title"
             android:launchMode="singleTask"
             android:process="com.android.phone">
@@ -1978,7 +1978,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <receiver android:name=".crdroid.TeloRadioBoot">
+        <receiver android:name=".pixel.TeloRadioBoot">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
                 <category android:name="android.intent.category.HOME" />

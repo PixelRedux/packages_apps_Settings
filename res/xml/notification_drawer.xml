@@ -39,13 +39,13 @@
         android:title="@string/quick_settings_panel_title" />
 
     <Preference
-        android:fragment="com.android.settings.crdroid.NotificationDrawerStyle"
+        android:fragment="com.android.settings.pixel.NotificationDrawerStyle"
         android:key="notification_style"
         android:title="@string/notification_style_title"
         android:summary="@string/notification_style_summary" />
 
     <Preference
-        android:fragment="com.android.settings.crdroid.NotificationsReminder"
+        android:fragment="com.android.settings.pixel.NotificationsReminder"
         android:key="notifications_reminder"
         android:title="@string/noti_reminder_title"
         android:summary="@string/noti_reminder_summary" />

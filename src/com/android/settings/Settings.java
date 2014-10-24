@@ -98,7 +98,7 @@ import com.android.settings.cyanogenmod.superuser.PolicyNativeFragment;
 import com.android.settings.deviceinfo.Memory;
 import com.android.settings.deviceinfo.UsbSettings;
 import com.android.settings.fuelgauge.PowerUsageSummary;
-import com.android.settings.crdroid.HeadsUpSettings;
+import com.android.settings.pixel.HeadsUpSettings;
 import com.android.settings.inputmethod.InputMethodAndLanguageSettings;
 import com.android.settings.inputmethod.KeyboardLayoutPickerFragment;
 import com.android.settings.inputmethod.SpellCheckersSettings;
@@ -131,7 +131,7 @@ import com.android.settings.wifi.WifiEnabler;
 import com.android.settings.wifi.WifiSettings;
 import com.android.settings.wifi.p2p.WifiP2pSettings;
 
-import com.android.settings.crdroid.crDroidNotifications;
+import com.android.settings.pixel.SmartNotifications;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -494,7 +494,7 @@ public class Settings extends PreferenceActivity
         com.android.settings.cyanogenmod.QuietHours.class.getName(),
         ThemeSettings.class.getName(),
         com.android.settings.wifi.WifiApSettings.class.getName(),
-        com.android.settings.crdroid.crDroidNotifications.class.getName(),
+        com.android.settings.pixel.SmartNotifications.class.getName(),
     };
 
     @Override
@@ -1397,5 +1397,5 @@ public class Settings extends PreferenceActivity
     public static class ThemeSettingsActivity extends Settings { /* empty */ }
     public static class WifiApSettingsActivity extends Settings { /* empty */ }
     public static class ASSRamBarActivity extends Settings { /* empty */ }
-    public static class crDroidNotificationServicesActivity extends Settings { /* empty */ }
+    public static class SmartNotificationServicesActivity extends Settings { /* empty */ }
 }

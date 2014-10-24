@@ -1,4 +1,4 @@
-package com.android.settings.crdroid;
+package com.android.settings.pixel;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;

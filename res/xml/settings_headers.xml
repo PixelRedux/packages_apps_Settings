@@ -112,7 +112,7 @@
     <header
         android:id="@+id/dynamic_system_bar"
         android:icon="@drawable/ic_settings_dsb"
-        android:fragment="com.android.settings.crdroid.DSBSettings"
+        android:fragment="com.android.settings.pixel.DSBSettings"
         android:title="@string/dynamic_system_bars_title" />
 
     <!-- Status Bar -->
@@ -144,10 +144,10 @@
 
     <!-- Notifications (Halo, Hover and Heads up -->
     <header
-        android:id="@+id/crdroid_notifications_settings"
-        android:icon="@drawable/ic_settings_crdroid_notifications"
-        android:fragment="com.android.settings.crdroid.crDroidNotifications"
-        android:title="@string/crdroid_notifications_title" />
+        android:id="@+id/pixel_notifications_settings"
+        android:icon="@drawable/ic_settings_pixel_notifications"
+        android:fragment="com.android.settings.pixel.pixelNotifications"
+        android:title="@string/pixel_notifications_title" />
 
     <!-- DEVICE -->
     <header android:id="@+id/device_section"
@@ -323,7 +323,7 @@
     <!-- Advanced options -->
     <header
         android:id="@+id/advanced_options_settings"
-        android:fragment="com.android.settings.crdroid.AdvancedSettings"
+        android:fragment="com.android.settings.pixel.AdvancedSettings"
         android:icon="@drawable/ic_settings_advanced"
         android:title="@string/advanced_options_settings_title" />
 

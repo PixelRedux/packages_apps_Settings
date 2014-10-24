@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.crdroid;
+package com.android.settings.pixel;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -37,11 +37,11 @@ import android.util.Log;
 import android.view.Display;
 import android.widget.Toast;
 
-import com.android.internal.util.crdroid.DeviceUtils;
+import com.android.internal.util.pixel.DeviceUtils;
 
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
-import com.android.settings.crdroid.SeekBarPreference;
+import com.android.settings.pixel.SeekBarPreference;
 
 import java.io.File;
 

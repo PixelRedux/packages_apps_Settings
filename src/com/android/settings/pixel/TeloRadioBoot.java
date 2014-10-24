@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.crdroid;
+package com.android.settings.pixel;
 
 import android.app.Activity;
 import android.content.BroadcastReceiver;

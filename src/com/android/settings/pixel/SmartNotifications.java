@@ -1,4 +1,4 @@
-package com.android.settings.crdroid;
+package com.android.settings.pixel;
 
 import android.app.ActivityManager;
 import android.content.Context;
@@ -14,14 +14,14 @@ import android.preference.Preference.OnPreferenceChangeListener;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
-public class crDroidNotifications extends SettingsPreferenceFragment implements
+public class SmartNotifications extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        addPreferencesFromResource(R.xml.crdroid_notifications);
+        addPreferencesFromResource(R.xml.smart_notifications);
 
     }
 

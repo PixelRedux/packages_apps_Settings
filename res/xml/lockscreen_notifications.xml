@@ -92,7 +92,7 @@
             android:dependency="lockscreen_notifications"
             android:summary="@string/dismiss_all_summary" />
 
-        <com.android.settings.crdroid.AppMultiSelectListPreference
+        <com.android.settings.pixel.AppMultiSelectListPreference
             android:key="excluded_apps"
             android:persistent="false"
             android:title="@string/excluded_apps_title"
@@ -110,7 +110,7 @@
             android:dependency="lockscreen_notifications"
             android:defaultValue="30" />
 
-        <com.android.settings.crdroid.NumberPickerPreference
+        <com.android.settings.pixel.NumberPickerPreference
             android:key="notifications_height"
             android:dialogMessage="@string/notifications_height"
             android:title="@string/notifications_height"

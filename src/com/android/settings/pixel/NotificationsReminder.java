@@ -1,4 +1,4 @@
-package com.android.settings.crdroid;
+package com.android.settings.pixel;
 
 import android.media.Ringtone;
 import android.media.RingtoneManager;

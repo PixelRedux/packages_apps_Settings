@@ -68,7 +68,7 @@
 
         <PreferenceScreen
             android:title="@string/notifications_on_lockscreen"
-            android:fragment="com.android.settings.crdroid.LockscreenNotifications"
+            android:fragment="com.android.settings.pixel.LockscreenNotifications"
             android:summary="@string/notifications_on_lockscreen_summary" />
 
     </PreferenceCategory>
