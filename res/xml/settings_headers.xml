@@ -144,10 +144,10 @@
 
     <!-- Notifications (Halo, Hover and Heads up -->
     <header
-        android:id="@+id/pixel_notifications_settings"
-        android:icon="@drawable/ic_settings_pixel_notifications"
-        android:fragment="com.android.settings.pixel.pixelNotifications"
-        android:title="@string/pixel_notifications_title" />
+        android:id="@+id/smart_notifications_settings"
+        android:icon="@drawable/ic_settings_smart_notifications"
+        android:fragment="com.android.settings.pixel.SmartNotifications"
+        android:title="@string/smart_notifications_title" />
 
     <!-- DEVICE -->
     <header android:id="@+id/device_section"

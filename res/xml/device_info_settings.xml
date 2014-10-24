@@ -111,7 +111,7 @@
         <!-- Pixel version -->
         <Preference android:key="pixel_version"
                 style="?android:preferenceInformationStyle"
-                android:title="@string/pixel_version"
+                android:title="@string/pixel_version_title"
                 android:summary="@string/pixel_version_default" />
 
         <!-- Device firmware version -->
