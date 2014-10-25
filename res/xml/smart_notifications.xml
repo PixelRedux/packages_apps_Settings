@@ -1,6 +1,6 @@
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:title="@string/pixel_notifications_title"
+    android:title="@string/smart_notifications_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
     <!-- Heads up -->
