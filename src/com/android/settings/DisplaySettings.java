@@ -100,6 +100,9 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
     // Dual Panel
     private static final String KEY_DUAL_PANEL = "force_dualpanel";
 
+    // Dual Panel
+    private static final String KEY_DUAL_PANEL = "force_dualpanel";
+
     private static final int DLG_GLOBAL_CHANGE_WARNING = 1;
 
     private static final String KEY_EXPANDED_DESKTOP = "expanded_desktop";

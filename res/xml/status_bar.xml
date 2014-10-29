@@ -24,7 +24,7 @@
         android:title="@string/status_bar_clock" />
 
     <PreferenceScreen
-        android:fragment="com.android.settings.crdroid.StatusBarNetworkTraffic"
+        android:fragment="com.android.settings.pixel.StatusBarNetworkTraffic"
         android:key="status_bar_network_traffic"
         android:title="@string/network_traffic_title" />
 
