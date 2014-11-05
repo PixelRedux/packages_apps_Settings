@@ -73,7 +73,7 @@ public class Density extends SettingsPreferenceFragment implements
         PreferenceScreen prefs = getPreferenceScreen();
 
         ActionBar actionBar = getActivity().getActionBar();
-        actionBar.setIcon(R.drawable.ic_settings_dirt);
+        actionBar.setIcon(R.drawable.ic_settings_display);
 
         mStockDensity = (ListPreference) findPreference("stock_density");
         mStockDensity.setOnPreferenceChangeListener(this);
